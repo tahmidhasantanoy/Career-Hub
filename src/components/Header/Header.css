@@ -1,0 +1,29 @@
+.logo {
+  width: 172px;
+  height: 44px;
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+
+  color: #1a1919;
+}
+
+.menu {
+  width: 95px;
+  height: 22px;
+
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #757575;
+}
+.btn-bg-color {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  /* margin: 10px; */
+  padding: 19px 28px;
+  color: white;
+  border-radius: 8px;
+}
