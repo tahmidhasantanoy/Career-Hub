@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5  footer-responsive">
         <div className="w-11/12 .md:w-9/12 footer-info">
           <h3 className="text-2xl mt-4">CareerHub</h3>
-          <p>
+          <p className=".sm:w-2/12">
             There are many variations of passages of Lorem Ipsum , but the
             majority have suffered alteration in some form.
           </p>
