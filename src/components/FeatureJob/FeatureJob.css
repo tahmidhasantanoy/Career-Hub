@@ -1,0 +1,10 @@
+.font {
+  font-family: "Manrope";
+}
+
+.view-details{
+    background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}

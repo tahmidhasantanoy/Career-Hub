@@ -3,6 +3,7 @@ import PersonImg from "../../assets/All Images/P3OLGJ1 copy 1.png";
 import "./Home.css";
 import { useLoaderData } from "react-router-dom";
 import JobCategory from "../JobCategory/JobCategory";
+import FeatureJobs from "../FeatureJobs/FeatureJobs";
 
 const Home = () => {
   const jobCategoryData = useLoaderData();
@@ -26,6 +27,8 @@ const Home = () => {
           <img className="" src={PersonImg} alt="" />
         </div>
       </div>
+
+
       <div className="my-32 mx-48">
         <h1 className="text-4xl text-center font-bold my-3">Job Category List</h1>
         <p className="text-center text-slate-500 mb-7">Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -34,6 +37,9 @@ const Home = () => {
             <JobCategory key={idx} job={job} />
           ))}
         </div>
+      </div>
+      <div>
+        <FeatureJobs/>
       </div>
     </div>
   );

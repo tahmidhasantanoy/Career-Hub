@@ -1,0 +1,106 @@
+[
+  {
+    "id": "a1b2c3d4",
+    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "jobTitle": "Frontend Developer",
+    "companyName": "Acme Corporation",
+    "jobLocation": "New York, NY",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "$120k - $150k",
+    "description": "We're looking for an experienced frontend developer to join our team."
+  },
+  {
+    "id": "e5f6g7h8",
+    "companyLogo": "../src/assets/Logo/Alphabet_Inc_Logo.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Global Enterprises",
+    "jobLocation": "London, UK",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "£90k - £120k",
+    "description": "We're seeking a skilled marketing manager to help grow our business."
+  },
+  {
+    "id": "i9j1k2l3",
+    "companyLogo": "../src/assets/Logo//netflix-4 1.png",
+    "jobTitle": "Full Stack Developer",
+    "companyName": "Innovative Solutions",
+    "jobLocation": "San Francisco, CA",
+    "jobType": {
+      "remote": true,
+      "partTime": false
+    },
+    "salary": "$140k - $170k",
+    "description": "Join our team as a full stack developer and help us build cutting-edge web applications."
+  },
+  {
+    "id": "m4n5o6p7",
+    "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Growth Co.",
+    "jobLocation": "Remote",
+    "jobType": {
+      "remote": true,
+      "partTime": false
+    },
+    "salary": "€100k - €130k",
+    "description": "We're looking for a talented product manager to lead our team and drive growth."
+  },
+  {
+    "id": "q8r9s1t2",
+    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Digital Innovations",
+    "jobLocation": "Berlin, Germany",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "€80k - €110k",
+    "description": "Join our team and help us analyze data to drive business insights."
+  },
+  {
+    "id": "u3v4w5x6",
+    "companyLogo": "../src/assets/Logo/Giant.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Tech Co.",
+    "jobLocation": "Seattle, WA",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "$130k - $160k",
+    "description": "We're seeking a talented software engineer to help us build the future of technology."
+  },
+  {
+    "id": "y7z8a1b2",
+    "companyLogo": "../src/assets/Logo/facebook.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Design Agency",
+    "jobLocation": "Seattle, WA",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "$130k - $160k",
+    "description": "We're seeking a talented software engineer to help us build the future of technology."
+  },
+  {
+    "id": "y7z8a1b3",
+    "companyLogo": "../src/assets/Logo/Amazon_Logo.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Design Agency",
+    "jobLocation": "Seattle, WA",
+    "jobType": {
+      "remote": false,
+      "partTime": false
+    },
+    "salary": "$130k - $160k",
+    "description": "We're seeking a talented software engineer to help us build the future of technology."
+  }
+]
