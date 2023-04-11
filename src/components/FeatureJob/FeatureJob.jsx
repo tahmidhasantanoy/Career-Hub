@@ -14,10 +14,8 @@ const FeatureJob = ({ feature }) => {
     salary,
   } = feature;
 
-  //chabge before strom
   const naviagte = useNavigate();
 
-// option : 1
   const openprofile = (id) => {
     naviagte({
       pathname: "/jobDetails",
