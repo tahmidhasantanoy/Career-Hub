@@ -6,12 +6,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import JobDetails from "./components/JobDetails/JobDetails";
+import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
+import { getJobListFromDB } from "./components/utilities/getJobListFromDB";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />, //pb
+    // errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -22,7 +24,12 @@ const router = createBrowserRouter([
         path: "/jobDetails",
         element: <JobDetails />,
         loader: () => fetch('feature-job.json')
-        //All ok 
+
+      },
+      {
+        path:"/appliedjobs",
+        element: <AppliedJobs/>,
+        loader :getJobListFromDB,
       },
     ],
   },

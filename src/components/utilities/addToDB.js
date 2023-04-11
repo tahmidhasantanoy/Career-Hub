@@ -17,6 +17,14 @@ const addToDB = (addId) => {
   localStorage.setItem("Apllied job list", JSON.stringify(appliedJobList));
 };
 
-//
+const getFromDB = () => {
+  let appliedJobList = {};
 
-export { addToDB };
+  const storeJobs = localStorage.getItem("Apllied job list");
+  if (storeJobs) {
+    appliedJobList = JSON.parse(storeJobs);
+  }
+  return appliedJobList;
+};
+
+export { addToDB, getFromDB };

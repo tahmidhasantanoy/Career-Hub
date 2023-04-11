@@ -29,7 +29,6 @@ const FeatureJob = ({ feature }) => {
 
 
 
-  //chabge before strom
 
 
 
