@@ -10,7 +10,12 @@
       "partTime": false
     },
     "salary": "$120k - $150k",
-    "description": "We're looking for an experienced frontend developer to join our team."
+    "description": "We're looking for an experienced frontend developer to join our team.",
+    "jobResponsibilities": "Develop and maintain responsive web applications, collaborate with cross-functional teams to define project requirements, troubleshoot and debug issues, optimize application performance.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "Minimum 5 years of experience in frontend development",
+    "phone": "123-456-7890",
+    "email": "careers@acmecorp.com"
   },
   {
     "id": "e5f6g7h8",
@@ -23,7 +28,12 @@
       "partTime": false
     },
     "salary": "£90k - £120k",
-    "description": "We're seeking a skilled marketing manager to help grow our business."
+    "description": "We're seeking a skilled marketing manager to help grow our business.",
+    "jobResponsibilities": "Develop and implement marketing strategies, manage marketing campaigns, analyze market trends and competitors, collaborate with internal and external stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "Minimum 7 years of experience in marketing",
+    "phone": "+44 20 1234 5678",
+    "email": "careers@globent.com"
   },
   {
     "id": "i9j1k2l3",
@@ -36,7 +46,12 @@
       "partTime": false
     },
     "salary": "$140k - $170k",
-    "description": "Join our team as a full stack developer and help us build cutting-edge web applications."
+    "description": "Join our team as a full stack developer and help us build cutting-edge web applications.",
+    "jobResponsibilities": "Develop end-to-end web applications, collaborate with cross-functional teams to define project requirements, troubleshoot and debug issues, optimize application performance.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "Minimum 6 years of experience in full stack development",
+    "phone": "415-123-4567",
+    "email": "jobs@innovsol.com"
   },
   {
     "id": "m4n5o6p7",
@@ -49,7 +64,12 @@
       "partTime": false
     },
     "salary": "€100k - €130k",
-    "description": "We're looking for a talented product manager to lead our team and drive growth."
+    "description": "We're looking for a talented product manager to lead our team and drive growth.",
+    "jobResponsibilities": "Develop end-to-end web applications, collaborate with cross-functional teams to define project requirements, troubleshoot and debug issues, optimize application performance.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "Minimum 6 years of experience in full stack development",
+    "phone": "415-123-4567",
+    "email": "jobs@innovsol.com"
   },
   {
     "id": "q8r9s1t2",
@@ -62,7 +82,12 @@
       "partTime": false
     },
     "salary": "€80k - €110k",
-    "description": "Join our team and help us analyze data to drive business insights."
+    "description": "Join our team and help us analyze data to drive business insights.",
+    "jobResponsibilities": "Lead product development initiatives, conduct market research, define product roadmap, collaborate with cross-functional teams, analyze customer feedback.",
+    "educationalRequirements": "Bachelor's degree in Business or related field",
+    "experiences": "Minimum 8 years of experience in product management",
+    "phone": "+1 800-555-1234",
+    "email": "jobs@growthco.com"
   },
   {
     "id": "u3v4w5x6",
@@ -75,7 +100,12 @@
       "partTime": false
     },
     "salary": "$130k - $160k",
-    "description": "We're seeking a talented software engineer to help us build the future of technology."
+    "description": "We're seeking a talented software engineer to help us build the future of technology.",
+    "jobResponsibilities": "Create wireframes, prototypes, and visual designs, conduct user research, collaborate with product and development teams, iterate and improve designs based on feedback.",
+    "educationalRequirements": "Bachelor's degree in Design or related field",
+    "experiences": "Minimum 3 years of experience in UX/UI design",
+    "phone": "310-987-6543",
+    "email": "careers@creativesolutions.com"
   },
   {
     "id": "y7z8a1b2",
@@ -88,7 +118,12 @@
       "partTime": false
     },
     "salary": "$130k - $160k",
-    "description": "We're seeking a talented software engineer to help us build the future of technology."
+    "description": "We're seeking a talented software engineer to help us build the future of technology.",
+    "jobResponsibilities": "Design and implement software solutions, write clean, maintainable code, conduct code reviews, troubleshoot and debug issues, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "Minimum 5 years of experience in software engineering",
+    "phone": "512-555-7890",
+    "email": "jobs@techinnovators.com"
   },
   {
     "id": "y7z8a1b3",
@@ -101,6 +136,11 @@
       "partTime": false
     },
     "salary": "$130k - $160k",
-    "description": "We're seeking a talented software engineer to help us build the future of technology."
+    "description": "We're seeking a talented software engineer to help us build the future of technology.",
+    "jobResponsibilities": "Develop and implement HR policies, manage employee relations, recruitment, compensation and benefits, performance management, employee engagement programs.",
+    "educationalRequirements": "MBA in Human Resources or related field",
+    "experiences": "Minimum 7 years of experience in HR management",
+    "phone": "+91 98765 43210",
+    "email": "careers@globalcorp.in"
   }
 ]
