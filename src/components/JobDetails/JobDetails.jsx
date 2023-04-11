@@ -1,6 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams, useSearchParams } from "react-router-dom";
 import "./JobDetails.css"
+import { addToDB } from "../utilities/addToDB";
 
 const JobDetails = () => {
   const featureJobData = useLoaderData();
@@ -13,6 +14,7 @@ const JobDetails = () => {
   const searchInfo = featureJobData.find((feature) => feature.id === searchId);
   console.log(searchInfo);
   const {
+    id,
     description,
     educationalRequirements,
     email,
@@ -28,7 +30,7 @@ const JobDetails = () => {
     <div className="mx-52">
       <h3 className="text-4xl font-semibold text-center mt-24 mb-64 mr-5">Job Details</h3>
       <div className="flex sm:flex-col md:flex-row lg:flex-row justify-center">
-        <div className=" w-9/12">
+        <div className=" w-9/12 mb-12">
           <p>
             <span className="font-semibold">Job Description : </span>{" "}
             <span className="text-slate-500">{description}</span>{" "}
@@ -68,7 +70,9 @@ const JobDetails = () => {
               <p><span className="font-semibold">Address :</span> <span className="text-slate-600">{jobLocation}</span></p>
             </div>
           </div>
-          <button className="btn-apply-now w-full">Apply Now</button>
+          <div className="pr-8">
+          <button onClick={() => addToDB(id)} className="btn-apply-now w-full">Apply Now</button>
+          </div>
         </div>
       </div>
     </div>
