@@ -1,21 +1,21 @@
 [
   {
-    "icon": "../src/assets/Icons/accounts 1.png",
+    "icon": "./Icons/accounts 1.png",
     "jobTitle": "Software Engineer",
     "jobQuantity": 150
   },
   {
-    "icon": "../src/assets/Icons/business 1.png",
+    "icon": "./Icons/business 1.png",
     "jobTitle": "Data Analyst",
     "jobQuantity": 250
   },
   {
-    "icon": "../src/assets/Icons/social-media 1.png",
+    "icon": "./Icons/social-media 1.png",
     "jobTitle": "Product Manager",
     "jobQuantity": 200
   },
   {
-    "icon": "../src/assets/Icons/chip 1.png",
+    "icon": "./Icons/chip 1.png",
     "jobTitle": "UI/UX Designer",
     "jobQuantity": 120
   }
