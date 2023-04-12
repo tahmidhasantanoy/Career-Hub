@@ -1,7 +1,7 @@
 [
   {
     "id": "a1b2c3d4",
-    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "companyLogo": "./Logo/google-1-1 1-1.png",
     "jobTitle": "Frontend Developer",
     "companyName": "Acme Corporation",
     "jobLocation": "New York, NY",
@@ -19,7 +19,7 @@
   },
   {
     "id": "e5f6g7h8",
-    "companyLogo": "../src/assets/Logo/Alphabet_Inc_Logo.png",
+    "companyLogo": "./Logo/Alphabet_Inc_Logo.png",
     "jobTitle": "Marketing Manager",
     "companyName": "Global Enterprises",
     "jobLocation": "London, UK",
@@ -37,7 +37,7 @@
   },
   {
     "id": "i9j1k2l3",
-    "companyLogo": "../src/assets/Logo//netflix-4 1.png",
+    "companyLogo": "./Logo/netflix-4 1.png",
     "jobTitle": "Full Stack Developer",
     "companyName": "Innovative Solutions",
     "jobLocation": "San Francisco, CA",
@@ -55,7 +55,7 @@
   },
   {
     "id": "m4n5o6p7",
-    "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+    "companyLogo": "./Logo/tesla-9 1.png",
     "jobTitle": "Product Manager",
     "companyName": "Growth Co.",
     "jobLocation": "Remote",
@@ -73,7 +73,7 @@
   },
   {
     "id": "q8r9s1t2",
-    "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+    "companyLogo": "./Logo/google-1-1 1-1.png",
     "jobTitle": "Data Scientist",
     "companyName": "Digital Innovations",
     "jobLocation": "Berlin, Germany",
@@ -91,7 +91,7 @@
   },
   {
     "id": "u3v4w5x6",
-    "companyLogo": "../src/assets/Logo/Giant.png",
+    "companyLogo": "./Logo/Giant.png",
     "jobTitle": "Software Engineer",
     "companyName": "Tech Co.",
     "jobLocation": "Seattle, WA",
@@ -109,7 +109,7 @@
   },
   {
     "id": "y7z8a1b2",
-    "companyLogo": "../src/assets/Logo/Facebook-Logo-1.png",
+    "companyLogo": "./Logo/Facebook-Logo-1.png",
     "jobTitle": "UI/UX Designer",
     "companyName": "Design Agency",
     "jobLocation": "Seattle, WA",
@@ -127,7 +127,7 @@
   },
   {
     "id": "y7z8a1b3",
-    "companyLogo": "../src/assets/Logo/Amazon_Logo.png",
+    "companyLogo": "./Logo/Amazon_logo.png",
     "jobTitle": "UI/UX Designer",
     "companyName": "Design Agency",
     "jobLocation": "Seattle, WA",
