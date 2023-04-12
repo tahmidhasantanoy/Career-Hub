@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <div>
       {/* <div className="flex sm:flex-col md:flex-row items-center"> */}
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center mx-48">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center mx-48 w-9/12">
         <div>
           <h2 className="text-5xl font-semibold my-3.5">
-            One Step Closer To Your{" "}
+            One Step <br /> Closer To Your <br />
             <span className="title-color">Dream Job</span>
           </h2>
           <p className="text-slate-500 my-3">

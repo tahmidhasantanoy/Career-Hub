@@ -1,9 +1,8 @@
 import React from "react";
 import "./AppliedJobsDetail.css";
-import { MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 
-
-const AppliedJobsDetail = ({ job }) => {
+const AppliedJobsDetail = ({ job, remoteJobs }) => {
   const {
     id,
     comapanyLogo,
@@ -14,6 +13,8 @@ const AppliedJobsDetail = ({ job }) => {
     salary,
     jobType,
   } = job;
+
+  console.log(remoteJobs.storedRemoteJobs);
 
   return (
     <div>
@@ -38,8 +39,14 @@ const AppliedJobsDetail = ({ job }) => {
               </p>
             </div>
             <div className="flex ml-8 mb-9">
-              <p className="text-slate-700 flex items-center mr-6"><MapPinIcon className=" inline h-6 w-6 text-slate-500" /><span className="text-slate-500">{jobLocation}</span></p>
-              <p className="text-slate-700 flex items-center"><CurrencyDollarIcon className=" inline h-6 w-6 text-slate-500" /><span className="text-slate-500">{salary}</span></p>
+              <p className="text-slate-700 flex items-center mr-6">
+                <MapPinIcon className=" inline h-6 w-6 text-slate-500" />
+                <span className="text-slate-500">{jobLocation}</span>
+              </p>
+              <p className="text-slate-700 flex items-center">
+                <CurrencyDollarIcon className=" inline h-6 w-6 text-slate-500" />
+                <span className="text-slate-500">{salary}</span>
+              </p>
             </div>
           </div>
           <div>

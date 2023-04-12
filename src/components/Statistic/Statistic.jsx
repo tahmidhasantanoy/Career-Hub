@@ -16,17 +16,13 @@ const Statistic = () => {
   const data = [
     {
       name: "A1",
-      uv: 590,
-      pv: 800,
+
       QuizMark: 29,
-      cnt: 490,
     },
     {
       name: "A2",
-      uv: 868,
-      pv: 967,
+
       QuizMark: 50,
-      cnt: 590,
     },
     {
       name: "A3",

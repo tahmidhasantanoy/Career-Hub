@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css"
 import { Link } from "react-router-dom";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   return (
@@ -11,10 +12,10 @@ const Header = () => {
         </div>
         {/* <div className="flex sm:flex-col md:flex-row .lg:flex-row justify-between w-4/12 my-10 menu"> */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 .text-center .sm:text-start w-fit my-6 mb-16 menu">
-          <Link className="m-3 my-0.5" to="/">Home</Link>
-          <Link className="m-3 my-0.5" to="/statistic">Statistic</Link>
-          <Link className="m-3 my-0.5" to="/appliedjobs">Applied Jobs</Link>
-          <Link className="m-3 my-0.5" to="/blog">Blog</Link>
+          <ActiveLink className="m-3 my-0.5" to="/">Home</ActiveLink>
+          <ActiveLink className="m-3 my-0.5" to="/statistic">Statistic</ActiveLink>
+          <ActiveLink className="m-3 my-0.5" to="/appliedjobs">Applied Jobs</ActiveLink>
+          <ActiveLink className="m-3 my-0.5" to="/blog">Blog</ActiveLink>
         </div>
         <div>
           <button className="btn-bg-color my-14">Start Applying</button>

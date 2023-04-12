@@ -5,15 +5,21 @@ import { useLoaderData } from "react-router-dom";
 import AppliedJobsDetail from "../AppliedJobsDetail/AppliedJobsDetail";
 
 const AppliedJobs = () => {
-
-
   const appliedJobsFromDB = useLoaderData();
   // console.log(appliedJobsFromDB);
 
   const remoteJobs = () => {
-    const remoteJobs  = appliedJobsFromDB.filter(jobs => jobs.jobType.remote === true)
+    const storedRemoteJobs = appliedJobsFromDB.filter(
+      (jobs) => jobs.jobType.remote === true
+    );
     console.log(remoteJobs);
-  }
+  };
+  const onsiteJobs = () => {
+    const storedOnsiteJobs = appliedJobsFromDB.filter(
+      (jobs) => jobs.jobType.remote === false
+    );
+    console.log(remoteJobs);
+  };
 
   return (
     <div className="">
@@ -22,12 +28,20 @@ const AppliedJobs = () => {
       </h3>
       {/* change here */}
       <div className="flex justify-end mr-52">
-        <button onClick={remoteJobs} className="view-details ml-5">Remote Jobs</button><button className="view-details ml-5">Onsite Jobs</button>
+        <button onClick={remoteJobs} className="view-details ml-5">
+          Remote Jobs
+        </button>
+        <button className="view-details ml-5">Onsite Jobs</button>
       </div>
       {/* change here */}
       <div className="mx-52">
         {appliedJobsFromDB.map((job, idx) => (
-          <AppliedJobsDetail key={idx} job={job} />
+          <AppliedJobsDetail
+            key={idx}
+            job={job}
+            remoteJobs={remoteJobs}
+            onsiteJobs={onsiteJobs}
+          />
         ))}
       </div>
     </div>
