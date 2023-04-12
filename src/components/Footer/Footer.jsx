@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className=" bg-neutral-900 text-white m-0 md:px-16">
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5  footer-responsive">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5  footer-responsive pt-32">
         <div className="w-11/12 .md:w-9/12 footer-info">
           <h3 className="text-2xl mt-4">CareerHub</h3>
           <p className=".sm:w-2/12">
@@ -41,9 +41,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className="px-10" />
-      <div className="md:flex justify-between sm:text-center px-10">
-        <div>@2023 CareerHub. All Rights Reserved</div>
-        <div>Powered by CareerHub</div>
+      <div className="md:flex justify-between sm:text-center px-10 pb-32 copyright">
+        <p>@2023 CareerHub. All Rights Reserved</p>
+        <p>Powered by CareerHub</p>
       </div>
     </div>
   );

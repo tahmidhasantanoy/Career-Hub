@@ -9,12 +9,13 @@ import JobDetails from "./components/JobDetails/JobDetails";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import { getJobListFromDB } from "./components/utilities/getJobListFromDB";
 import Statistic from "./components/Statistic/Statistic";
+import Blog from "./components/Blog/Blog";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -32,8 +33,12 @@ const router = createBrowserRouter([
         loader: getJobListFromDB,
       },
       {
-        path :"/statistic",
-        element:<Statistic/>
+        path: "/statistic",
+        element: <Statistic />,
+      },
+      {
+        path:"/blog",
+        element:<Blog/>
       },
     ],
   },

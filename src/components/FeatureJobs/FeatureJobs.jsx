@@ -13,7 +13,8 @@ const FeatureJobs = () => {
     <div className="flex flex-col justify-center my-32 mx-48 ">
       <h1 className="text-4xl text-center font-bold my-3">Featured Jobs</h1>
       <p className="text-center text-slate-500 mb-7">
-      Explore thousands of job opportunities with all the information you need. Its your future
+        Explore thousands of job opportunities with all the information you
+        need. Its your future
       </p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2">
         {features.map((feature) => (

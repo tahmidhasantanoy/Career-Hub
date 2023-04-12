@@ -14,7 +14,7 @@ const Header = () => {
           <Link className="m-3 my-0.5" to="/">Home</Link>
           <Link className="m-3 my-0.5" to="/statistic">Statistic</Link>
           <Link className="m-3 my-0.5" to="/appliedjobs">Applied Jobs</Link>
-          <Link className="m-3 my-0.5" to="">Blog</Link>
+          <Link className="m-3 my-0.5" to="/blog">Blog</Link>
         </div>
         <div>
           <button className="btn-bg-color my-14">Start Applying</button>
