@@ -9,31 +9,20 @@ const FeatureJobs = () => {
   useEffect(() => {
     fetch("feature-job.json")
       .then((res) => res.json())
-      // .then((data) => setFeatures(data));
       .then((data) => {
         values = data;
         let dataLimit = values.slice(0, 4);
 
         seeAll ? setFeatures(data) : setFeatures(dataLimit)
-        // setFeatures(dataLimit)
-        seeAllJobs(data,dataLimit)
-        // setFeatures(dataLimit);
+
       });
   }, [seeAll]);
 
 
 
-  
-  const seeAllJobs = (data) => {
-
-    console.log('data');
-    // setFeatures(data)  // automaticly called why??
-    // setFeatures(values);
-  };
 
   return (
     <div>
-      {/* {seAll ? setFeatures(): ""} */}
       <div className="flex flex-col justify-center my-32 mx-48 ">
       <h1 className="text-4xl text-center font-bold my-3">Featured Jobs</h1>
       <p className="text-center text-slate-500 mb-7">

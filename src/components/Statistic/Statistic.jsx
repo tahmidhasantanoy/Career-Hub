@@ -17,47 +17,55 @@ const Statistic = () => {
     {
       name: "A1",
 
-      QuizMark: 29,
+      AssignmentMark: 29,
+      AssgnmentNumber:60,
     },
     {
       name: "A2",
 
-      QuizMark: 50,
+      AssignmentMark: 50,
+      AssgnmentNumber:60,
     },
     {
       name: "A3",
 
-      QuizMark: 54,
+      AssignmentMark: 54,
+      AssgnmentNumber:60,
     },
     {
       name: "A4",
 
-      QuizMark: 60,
+      AssignmentMark: 60,
+      AssgnmentNumber:60,
     },
     {
       name: "A5",
 
-      QuizMark: 55,
+      AssignmentMark: 55,
+      AssgnmentNumber:60,
     },
     {
       name: "A6",
 
-      QuizMark: 57,
+      AssignmentMark: 57,
+      AssgnmentNumber:60,
     },
     {
       name: "A7",
 
-      QuizMark: 60,
+      AssignmentMark: 60,
+      AssgnmentNumber:60,
     },
     {
       name: "A8",
 
-      QuizMark: 58,
+      AssignmentMark: 58,
+      AssgnmentNumber:60,
     },
   ];
 
   return (
-    <div className="mx-52">
+    <div className="mx-52 mb-32">
       <h2 className="text-center text-4xl font-semibold mb-64">Statistic</h2>
       <div className="flex justify-center">
         <ComposedChart
@@ -91,12 +99,15 @@ const Statistic = () => {
           />
           <Tooltip />
           <Legend />
-          {/* <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
-          <Bar dataKey="QuizMark" barSize={60} fill="#413ea0" />
-          <Line type="" dataKey="QuizMark" stroke="#ff7300" />
-          <Scatter dataKey="QuizMark" fill="red" />
+          <Bar dataKey="AssignmentMark" barSize={60} fill="#413ea0" />
+          <Line type="" dataKey="AssignmentMark" stroke="#ff7300" />
+          <Scatter dataKey="AssignmentMark" fill="red" />
         </ComposedChart>
+
+        
       </div>
+      <p className="text-center my-5"><strong>figure : </strong>Assignment marks against the
+assignment number in ComposedChart.</p>
     </div>
   );
 };

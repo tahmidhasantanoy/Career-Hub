@@ -5,14 +5,11 @@ import { addToDB } from "../utilities/addToDB";
 
 const JobDetails = () => {
   const featureJobData = useLoaderData();
-  //  console.log(featureJobData);
 
   const [searchparams] = useSearchParams();
   const searchId = searchparams.get("id"); //clicked id
-  //   console.log(searchId);
 
   const searchInfo = featureJobData.find((feature) => feature.id === searchId);
-  console.log(searchInfo);
   const {
     id,
     description,

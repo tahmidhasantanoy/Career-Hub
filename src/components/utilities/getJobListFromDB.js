@@ -12,9 +12,7 @@ const getJobListFromDB = async () => {
     const searchId = features.find((feature) => feature.id === jobId);
     appliedJobs.push(searchId);
   }
-  //   console.log(appliedJobs);
   return appliedJobs;
-  //   return features;
 };
 
 export { getJobListFromDB };

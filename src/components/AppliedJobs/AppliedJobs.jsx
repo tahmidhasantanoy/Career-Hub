@@ -22,7 +22,7 @@ const AppliedJobs = () => {
   };
 
   return (
-    <div className="">
+    <div className="mb-32">
       <h3 className="text-4xl font-semibold text-center mt-24 mb-64 mr-5">
         Applied Jobs
       </h3>

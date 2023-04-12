@@ -14,7 +14,6 @@ const AppliedJobsDetail = ({ job, remoteJobs }) => {
     jobType,
   } = job;
 
-  console.log(remoteJobs.storedRemoteJobs);
 
   return (
     <div>
